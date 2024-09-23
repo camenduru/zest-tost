@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "ZeST: Zero-Shot Material Transfer from a Single Image",
+      "author": "Ta-Ying Cheng, Prafull Sharma, Andrew Markham, Niki Trigoni, Varun Jampani",
+      "paper": "https://arxiv.org/abs/2404.06425",
+      "code": "https://github.com/ttchengab/zest_code",
+      "page": "https://ttchengab.github.io/zest/",
+      "jupyter": "https://github.com/camenduru/zest-jupyter",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/zest.ipynb",
+      "tags": [
+        "Image to Image"
+      ],
+      "widget": "readme"
+    },
+    "input_image_check": {
+        "type": "string",
+        "description": "Input Image URL",
+        "widget": "textarea"
+    },
+    "material_image": {
+        "type": "string",
+        "description": "Material Image URL",
+        "widget": "textarea"
+    },
+    "example1": {
+      "type": "string",
+      "link": "https://matlib.gpuopen.com/main/materials/all",
+      "image1": "https://files.catbox.moe/t5d7gr.jpg",
+      "image2": "https://files.catbox.moe/z6roty.png",
+      "image3": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=<in%20out>#.png",
+      "image4": "https://files.catbox.moe/gn6v42.png",
+      "widget": "example"
+    },
+    "example2": {
+      "type": "string",
+      "image1": "https://files.catbox.moe/t5d7gr.jpg",
+      "image2": "https://files.catbox.moe/isima1.png",
+      "image3": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=<in%20out>#.png",
+      "image4": "https://files.catbox.moe/pywuya.png",
+      "widget": "example"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
