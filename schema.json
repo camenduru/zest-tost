@@ -16,15 +16,27 @@
       ],
       "widget": "readme"
     },
+    "upload1": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "input_image_check"
+    },
     "input_image_check": {
-        "type": "string",
-        "description": "Input Image URL",
-        "widget": "textarea"
+      "type": "string",
+      "description": "Input Image URL",
+      "widget": "textarea"
+    },
+    "upload2": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "material_image"
     },
     "material_image": {
-        "type": "string",
-        "description": "Material Image URL",
-        "widget": "textarea"
+      "type": "string",
+      "description": "Material Image URL",
+      "widget": "textarea"
     },
     "example1": {
       "type": "string",
